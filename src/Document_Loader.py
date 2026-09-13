@@ -6,8 +6,3 @@ def DocLoader(path,export_type=ExportType.MARKDOWN):
     loader = DoclingLoader(path_builder(path),export_type=export_type)
     return loader.load()
 
-path = "src/data/Proposal speech part.pdf"
-
-doc = DocLoader(path)
-
-print(doc)
