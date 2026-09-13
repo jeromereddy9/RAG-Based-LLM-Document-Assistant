@@ -1,0 +1,2 @@
+langchain
+langchain-docling[local]
